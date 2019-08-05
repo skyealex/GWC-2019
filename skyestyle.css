@@ -32,7 +32,8 @@ body{
 
 .slideshow{
   flex: 0 1 auto;
-  width: 10%;
+  width: auto;
+  height: 100px;
   padding: 5px;
   opacity: 0.15;
   transition: opacity 1s ease-in-out;
@@ -64,7 +65,7 @@ ul li{
 
 
 
-.crocodile{
+.contact{
   background-color: #df9fbf;
   height:auto;
   width:auto;
@@ -74,7 +75,7 @@ ul li{
 
 }
 
-.crocodile:hover{
+.contact:hover{
   opacity: 1;
   transition: 1s;
 }
@@ -99,6 +100,7 @@ ul li{
 .bpic{
   width:100%;
   opacity: 0.5;
+  transition: opacity 1s ease-in-out;
 }
 
 .bpic:hover{
@@ -117,7 +119,7 @@ ul li{
 }
 
 h1{
-  text-align: center
+  text-align: center;
 }
 
 .fade:hover{
